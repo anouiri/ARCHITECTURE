@@ -1,0 +1,6 @@
+|Pattern	|Benefits	|Limitations	|
+|---	|---	|---	| 
+|<b>Multi-org Connector|<ul><li>Easy process/data integration with multiple orgs<li>All data in a single instance<li>Lower total cost of ownership and maintenance|<ul><li>All Marketing cloud contacts must go through Salesforce<li>Rework associated with the upgrade|
+|<b>Enterprise Org|<ul><li>Easy integration with MC<li>All data in a single Salesforce and MC instance|<ul><li>Cannot use connector capabilities with individual orgs<li>High Storage costs in Enterprise Org<li>Integration Strategy more complex|
+|<b>Custom Integration|<ul><li>Full flexibility around subscriber key and integration flows<li>All data in a single instance<li>Contacts don’t have to go through Salesforce|<ul><li>Cannot use connector capabilities<li>Requires building/maintaining all integrations with MC<li>Requires potential additional investments, such as a middleware tool for data transfers and an MDM module to assign unique key to contacts|
+|<b>Multiple Marketing Cloud Instances|<ul><li>Isolated subscriber key and configurations<li>Contacts don’t have to go through Salesforce<li>Can use full MC Connector capabilities|<ul><li>Track duplicates and unsubscribes is complicated<li>Reuse/Share templates and configurations is complicated<li>Higher cost of ownership.|
